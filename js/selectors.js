@@ -5,5 +5,17 @@ function paragraphSelector() {
 }
 
 function lastImageSelector() {
-  return $('img:last-child')
+  return $('img:last-child');
+}
+
+function ninjaBabySelector() {
+  return $('#baby-ninja');
+}
+
+function divSelector() {
+  return $('div.pics');
+}
+
+function firstListItem() {
+  return $('ul #pic_list:first-child')
 }
